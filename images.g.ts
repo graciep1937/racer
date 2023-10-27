@@ -126,33 +126,6 @@ dd3333333333333333333dddddd333333ddddddddd3333333333333333333dddddd333333ddddddd
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 `;
-            case "image2":
-            case "car":return img`
-..e55eeeeee66666655666..
-..e55eeeeee66666655666..
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-22eeeeeeeee66666666666..
-ffeeeeeeeee6666666666622
-..eeeeeeeee66666666666ff
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-eeeeeee11111111116666666
-eeeeeee11111111116666666
-eeeeeee11111111116666666
-22eeeee11111111116666622
-ffeeeee111111111166666ff
-..eeeee111111111166666..
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-22eeeeeeeee66666666666..
-ffeeeeeeeee6666666666622
-..eeeeeeeee66666666666ff
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-..eeeeeeeee66666666666..
-`;
             case "image3":
             case "cityscape2":return img`
 9999999997777777777777777777777777777777777777777777777777777777799999777777777777777777777777777777777777777777777777777777777777777799999999999999999999999999
@@ -275,6 +248,44 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+`;
+            case "image2":
+            case "car":return img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`;
+            case "image4":
+            case "coin":return img`
+. . b b b b . . 
+. b 5 5 5 5 b . 
+b 5 d 3 3 d 5 b 
+b 5 3 5 5 1 5 b 
+c 5 3 5 5 1 d c 
+c d d 1 1 d d c 
+. f d d d d f . 
+. . f f f f . . 
 `;
         }
         return null;
