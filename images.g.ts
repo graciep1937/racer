@@ -277,6 +277,25 @@ eeeeeeee111111eeeeeeeeee
 ...f2....f2666...f2.....
 `;
             case "image4":
+            case "heart":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f f f f f . f f f f f . . 
+. . f f 3 3 3 f f f 3 3 3 f f . 
+. . f 3 3 3 3 3 f 3 3 3 3 3 f . 
+. . f 3 3 3 3 3 3 3 1 1 3 3 f . 
+. . f 3 3 3 3 3 3 3 1 1 3 3 f . 
+. . f 3 3 3 3 3 3 3 3 3 3 3 f . 
+. . f f 3 3 3 b b b 3 3 3 f f . 
+. . . f f 3 b b b b b 3 f f . . 
+. . . . f f b b b b b f f . . . 
+. . . . . f f b b b f f . . . . 
+. . . . . . f f b f f . . . . . 
+. . . . . . . f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image5":
             case "coin":return img`
 . . b b b b . . 
 . b 5 5 5 5 b . 
@@ -287,13 +306,391 @@ c d d 1 1 d d c
 . f d d d d f . 
 . . f f f f . . 
 `;
+            case "image6":
+            case "duck6":return img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+. b b b d 5 5 5 5 5 4 4 4 4 4 b 
+b d d d b b d 5 5 4 4 4 4 4 b . 
+b b d 5 5 5 b 5 5 5 5 5 5 b . . 
+c d c 5 5 5 5 d 5 5 5 5 5 5 b . 
+c b d c d 5 5 b 5 5 5 5 5 5 b . 
+. c d d c c b d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+. . . . . . . . . . . . . . . . 
+`;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "car-rolling":
+            case "anim1":return [img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`, img`
+....2f...2feee....2f....
+....2f...2feee....2f....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...2f....2f666...2f.....
+...2f....2f666...2f.....
+`];
+            case "car-reversing":
+            case "anim2":return [img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`, img`
+....2f...2feee....2f....
+....2f...2feee....2f....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+2eeeeeeeeeeeeeeeeeeeeeee
+22eeeeeeeeeeeeeeeeeeeeee
+22eeeeee111111eeeeeeeeee
+2eeee2ee111111eeeeeeeeee
+eeee22ee111111eeeeeeeeee
+eee22eee111111eeeeeeeeee
+666226661111116666666666
+666622661111116666666666
+666662661111116666666666
+666666661111116666666666
+266666661111116666666666
+226666661111116666666666
+226666666666666666666655
+266666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...2f....2f666...2f.....
+...2f....2f666...2f.....
+`];
+            case "car-rolling0":
+            case "anim3":return [img`
+..e55eeeeee66666655666..
+..e55eeeeee66666655666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+22eeeeeeeee66666666666..
+ffeeeeeeeee6666666666622
+..eeeeeeeee66666666666ff
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+eeeeeee11111111116666666
+eeeeeee11111111116666666
+eeeeeee11111111116666666
+22eeeee11111111116666622
+ffeeeee111111111166666ff
+..eeeee111111111166666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+22eeeeeeeee66666666666..
+ffeeeeeeeee6666666666622
+..eeeeeeeee66666666666ff
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+`, img`
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+ffeeeeeeeee66666666666..
+22eeeeeeeee66666666666ff
+..eeeeeeeee6666666666622
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+eeeeeee11111111116666666
+eeeeeee11111111116666666
+eeeeeee11111111116666666
+ffeeeee111111111166666ff
+22eeeee11111111116666622
+..eeeee111111111166666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+ffeeeeeeeee66666666666..
+22eeeeeeeee66666666666ff
+..eeeeeeeee6666666666622
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+..eeeeeeeee66666666666..
+`];
+            case "car-idle":
+            case "anim4":return [img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`, img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`, img`
+....f2...f2eee....f2....
+....f2...f2eee....f2....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeee55
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666655
+666666666666666666666655
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...f2....f2666...f2.....
+...f2....f2666...f2.....
+`, img`
+....2f...2feee....2f....
+....2f...2feee....2f....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...2f....2f666...2f.....
+...2f....2f666...2f.....
+`, img`
+....2f...2feee....2f....
+....2f...2feee....2f....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...2f....2f666...2f.....
+...2f....2f666...2f.....
+`, img`
+....2f...2feee....2f....
+....2f...2feee....2f....
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+eeeeeeee111111eeeeeeeeee
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666661111116666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+666666666666666666666666
+...2f....2f666...2f.....
+...2f....2f666...2f.....
+`];
+            case "car-down":
+            case "anim5":return [img`
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+ff66666666666eeeeeeeee..
+2266666666666eeeeeeeeeff
+..66666666666eeeeeeeee22
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..666661111111111eeeee..
+ff666661111111111eeeeeff
+22666661111111111eeeee22
+66666661111111111eeeeeee
+66666661111111111eeeeeee
+66666661111111111eeeeeee
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+ff66666666666eeeeeeeee..
+2266666666666eeeeeeeeeff
+..66666666666eeeeeeeee22
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66655666666eeeeee55e..
+..66655666666eeeeee55e..
+`, img`
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+2266666666666eeeeeeeee..
+ff66666666666eeeeeeeee22
+..66666666666eeeeeeeeeff
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..666661111111111eeeee..
+22666661111111111eeeee22
+ff666661111111111eeeeeff
+66666661111111111eeeeeee
+66666661111111111eeeeeee
+66666661111111111eeeeeee
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+2266666666666eeeeeeeee..
+ff66666666666eeeeeeeee22
+..66666666666eeeeeeeeeff
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+..66666666666eeeeeeeee..
+`];
         }
         return null;
     })
